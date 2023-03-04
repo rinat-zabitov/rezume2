@@ -4,83 +4,96 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="html,css,rinat" />
-    <meta name="keywords" content="Тут я буду учиться программированию" />
-    <title>Мой Сайт</title>
+    <title>My rezume</title>
+    <link rel="stylesheet" href="1_index.css" />
   </head>
   <body>
-    <h1>Мой первый сайт</h1>
-    <h1><img src="img.rr.jpg" alt="Фото" width="150" /></h1>
-    <h1>Ринат Забитов</h1>
-    <p>
-       Я <em> обычный человек который с 0 начал программирование</em>
-    </p>
-    <p>
-      Я <em>люблю играть в футбол</em>,<em
-        >компьютерные игры также путешесвовать</em
-      >
-    </p>
-    <h2>Список соц сетей:</h2>
-    <a href="https://vk.com/galaktik_01" target="_blank">VK</a>
-    <br>
-    <a
-      href="https://web.telegram.org/k/#-1787950487"
-      target="_blank
-    "
-      >Telegram
-    </a>
-    <h2>Мои хобби:</h2>
-    <ol>
-      <li>Борьба</li>
-      <li>Футбол</li>
-      <li>Игры</li>
-      <li>Паркур</li>
-    </ol>
-    <h2>Мои любимые игры:</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Название</th>
-          <th>Год выпуска</th>
-          <th>Компания</th>
-        </tr>
-      </thead>
-      <tbody>
-       <tr>
-         <td>Far Cry6</td>
-         <td>7 октября 2021 года</td>
-         <td>UBISOFT</td>
-       </tr>
-       <tr>
-         <td>Assassins Creed Valhalla</td>
-         <td>10 ноября 2020г</td>
-         <td>UBISOFT</td>
-       </tr>
-       <tr>
-         <td>Call of Duty: Modern Warfare 2</td>
-         <td>10 ноября 2009</td>
-        <td>Activision</td>
-      </tbody>
-      </tr>
-    </table>
-    <h1>Связаться со мной! </h1>
-    <form>
-      <div>
-        <label for="text">Имя:</label>
-        <input type="text" id="text" placeholder="Введите ваще имя" />
+    <div class="conteiner">
+      <div class="info">
+        <img src="img.rr.jpg" class="img" alt="Тут моя фотка" />
+        <div class="info-text">
+          <h1>Ринат Забитов</h1>
+          <p>
+            Я обычный человек который решил изучать программирование с 0 <br />
+            Я люблю смотреть фильмы,путешествовать и заниматься спортом
+          </p>
+
+          <h4>Список социальных сетей:</h4>
+
+          <a href="https://web.telegram.org/k/#@Faty_Xsv" target="_blank"
+            >Telegram</a
+          >
+          |
+          <a href="https://vk.com/galaktik_01" target="_blank">VK</a>
+        </div>
       </div>
-      <label for="email">Email:</label>
-      <input type="email" id="email" placeholder="Введите ваш email" />
-      <div>
-        <label for="message">Ваше сообщение:</label>
-        <br />
-        <textarea
-          id="message"
-          placeholder="Введите ваше сообoение..."
-        ></textarea>
+      <div class="card yellow">
+        <h2>Мои Хобби</h2>
+        <ol>
+          <li>Паркур</li>
+          <li>Вольная борьба</li>
+          <li>Футбол</li>
+          <li>Программирование</li>
+          <li>Плавание</li>
+        </ol>
+      </div>
+      <div class="card green">
+        <h2>Мои любимые игры</h2>
+
+        <table class="table">
+          <thead>
+            <tr>
+              <!-- <th>Название</th>
+              <th>Год выпуска</th>
+              <th>Компания</th> -->
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Far Cry6</td>
+              <td>7 октября 2021г</td>
+              <td>UBISOFT</td>
+            </tr>
+            <tr>
+              <td>Far Cry5</td>
+              <td>26 марта 2018г</td>
+              <td>UBISOFT</td>
+            </tr>
+            <tr>
+              <td>Far Cry4</td>
+              <td>18 ноября 2014г</td>
+              <td>UBISOFT</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
 
-      <button type="submit">Отправить!</button>
-    </form>
+      <form action="/" class="form">
+        <h2>Связаться со мной!</h2>
+
+        <div class="row">
+          <div class="form-group">
+            <label for="name">Ваше имя:</label>
+            <input type="text" id="name" placeholder="Введите ваше имя" />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Ваш email:</label>
+            <input type="email" id="email" placeholder="Введите ваш email" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="message">Ваше сообщение:</label>
+          <textarea
+            id="message"
+            cols="20"
+            rows="5"
+            placeholder="Введите ваше сообщение"
+          ></textarea>
+        </div>
+
+        <input type="submit" class="btn" value="Отправить!" />
+      </form>
+    </div>
   </body>
 </html>

@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  background: #f1f1f1;
+  background: url(https://kartinkin.net/pics/uploads/posts/2022-08/1660275615_70-kartinkin-net-p-kruglii-fon-dlya-avatarki-krasivo-72.jpg);
+}
+
+.img {
+  width: 190px;
+  border-radius: 17px;
+  box-shadow: 5px 5px 15px rgb(141, 131, 131);
+  /* ФОТО */
+}
+
+.conteiner {
+  max-width: 950px;
+  margin: auto;
+  padding: 27px;
+  /* ВЕСЬ САЙТ */
+}
+
+.info {
+  margin-bottom: 20px;
+  display: flex;
+  /* НАХОДИТЬСЯ ПЕРВОНАЧАЛЬНЫЙ ТЕКСТ И ФОТО */
+}
+
+.info-text {
+  margin-left: 25px;
+}
+
+.info-text h1 {
+  color: rgb(88, 85, 85);
+}
+
+.info-text h4 {
+  color: #e5ffe7;
+}
+
+div p {
+  font-style: italic;
+  font-weight: bold;
+  color: #86898f;
+  margin: 0px;
+  /* ПЕРВОНАЧАЛЬНЫЙ ТЕКСТ ОБО МНЕ */
+}
+
+.card {
+  border: 1px solid #fff;
+  border-radius: 18px;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+  /* МОИ ХОББИ */
+}
+
+.card h2 {
+  margin-bottom: 10px;
+  /* ТЕКСТ мои хобби */
+}
+
+.yellow {
+  background: #f1f1f1;
+  /* ФОН ДЛЯ МОИ ХОББИ */
+}
+
+.green {
+  background: #f1f1f1;
+  /* ФОН ДЛЯ МОИ ХОББИ */
+}
+
+a {
+  text-decoration: none;
+  color: rgb(143, 134, 134);
+  /* ССЫЛКА */
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+  /* ТОЖЕ ССЫЛКА */
+}
+
+a:active {
+  color: rgb(14, 19, 56);
+  /* ТОЖЕ ССЫЛКА */
+}
+
+.btn {
+  background: #f1f1f1;
+  color: rgb(22, 23, 23);
+  padding: 10px 15px;
+  margin-top: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+  /* КНОПКА */
+}
+
+.btn:hover {
+  opacity: 0.8;
+  /* ТОЖЕ КНОПКА */
+}
+
+.table td {
+  padding: 6px 6px;
+  /* МОИ ИГРЫ */
+}
+
+.table {
+  width: 100%;
+  /* МОИ ИГРЫ */
+}
+
+.card li {
+  list-style: none;
+  padding: 3px 0px;
+  margin: 0;
+  color: #86898f;
+  /* ОТНОСИТЬСЯ К МОИ ХОББИ */
+}
+
+.table td:nth-child(2),
+.table td:nth-child(3) {
+  color: #86898f;
+  /* ОТНОСИТСЯ К МОИ ИГРЫ */
+}
+
+.form h2 {
+  text-align: center;
+  color: #e5ffe7;
+}
+
+.form-group label {
+  display: block;
+  font-size: 15px;
+  color: #86898f;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #f1f1f1;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.row .form-group {
+  width: 50%;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.row .form-group:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 650px) {
+  .row {
+    display: block;
+  }
+
+  .row .form-group {
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 12px;
+  }
+}
+
+.row {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+@media (max-width: 650px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
